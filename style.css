@@ -1,8 +1,18 @@
 
-.body {
+.dashboard {
   display: grid;
+  grid-template-rows: 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px;
 }
 
 .sidebar{
   background-color: orange;
+}
+
+.header{
+  background-color: blue;
+}
+
+.content{
+  background-color: brown;
 }
