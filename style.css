@@ -1,11 +1,18 @@
 
 .dashboard {
   display: grid;
-  grid-template-rows: 50px 50px 50px;
-  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 160px 500px 150px;
 }
 
 .sidebar{
+  .dashboard-logo{
+    font-size: x-large;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding: 10px;
+  }
   background-color: orange;
 }
 
