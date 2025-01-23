@@ -2,24 +2,67 @@
 .dashboard {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 160px 500px 150px;
+  grid-template-columns: 220px 500px 150px;
 }
 
-.sidebar{
-  .dashboard-logo{
-    font-size: x-large;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    padding: 10px;
+  .sidebar{
+    background-color: orange;
+    display: grid;
   }
-  background-color: orange;
-}
+    .dashboard-logo{
+      font-size: x-large;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      padding: 10px;
+    }
+    .options{
+      width: 30px;
+      height: 30px;
+      padding: 10px;
+      font-size:medium;
+      font-weight: bold;
+    }
+      .home{
+        display: flex;
+      }
+      .profile{
+        display: flex;
+      }
+      .messages{
+        display: flex;
+      }
+      .history{
+        display: flex;
+      }
+      .tasks{
+        display: flex;
+      }
+      .communities{
+        display: flex;
+      }
+    .other-options{
+      width: 30px;
+      height: 30px;
+      padding: 10px;
+      font-size:medium;
+      font-weight: bold;
+    }
+      .settings{
+        display: flex;
+      }
+      .support{
+        display: flex;
+      }
+      .privacy{
+        display: flex;
+      }
 
-.header{
-  background-color: blue;
-}
 
-.content{
-  background-color: brown;
-}
+  .header{
+    background-color: blue;
+  }
+
+  .content{
+    background-color: brown;
+  }
