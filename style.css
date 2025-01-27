@@ -3,11 +3,11 @@
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 220px 500px 150px;
-  color: white;
 }
 
   .sidebar{
     background-color: rgb(0, 132, 255);
+    color: white;
     display: grid;
   }
     .dashboard-logo{
