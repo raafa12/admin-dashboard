@@ -3,10 +3,11 @@
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 220px 500px 150px;
+  color: white;
 }
 
   .sidebar{
-    background-color: orange;
+    background-color: rgb(0, 132, 255);
     display: grid;
   }
     .dashboard-logo{
@@ -60,9 +61,22 @@
 
 
   .header{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
   }
+    .search-box{
+      width: 30px;
+      height: 30px;
+      display: flex;
+    }
+    .right-searchbox{
+      width: 30px;
+      height: 30px;
+      display: flex;
+    }
+    .header-buttons{
+      
+    }
 
   .content{
-    background-color: brown;
+    background-color: rgb(163, 163, 163);
   }
