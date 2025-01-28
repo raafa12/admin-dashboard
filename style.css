@@ -20,43 +20,59 @@
     .options{
       width: 30px;
       height: 30px;
-      padding: 10px;
       font-size:medium;
       font-weight: bold;
     }
       .home{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
       .profile{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
       .messages{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
       .history{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
       .tasks{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
       .communities{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
     .other-options{
       width: 30px;
       height: 30px;
-      padding: 10px;
       font-size:medium;
       font-weight: bold;
     }
       .settings{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
       .support{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
       .privacy{
         display: flex;
+        gap: 10px;
+        margin-inline-start: 10px;
       }
 
 
