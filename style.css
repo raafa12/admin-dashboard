@@ -16,6 +16,11 @@
       height: 30px;
       display: flex;
       padding: 10px;
+      gap: 10px;
+      .filter-white{
+        filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+      }
+      
     }
     .options{
       width: 30px;
@@ -27,31 +32,49 @@
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
       .profile{
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
       .messages{
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
       .history{
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
       .tasks{
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
       .communities{
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
     .other-options{
       width: 30px;
@@ -63,16 +86,25 @@
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
       .support{
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
       .privacy{
         display: flex;
         gap: 10px;
         margin-inline-start: 10px;
+        .filter-white{
+          filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
+        }
       }
 
 
