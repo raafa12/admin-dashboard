@@ -2,7 +2,7 @@
 .dashboard {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 220px 500px 150px;
+  grid-template-columns: 220px 1000px;
 }
 
   .sidebar{
@@ -23,6 +23,8 @@
       
     }
     .options{
+      position: relative;
+      bottom: 180px;
       width: 30px;
       height: 30px;
       font-size:medium;
@@ -31,6 +33,7 @@
       .home{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -39,6 +42,7 @@
       .profile{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -47,6 +51,7 @@
       .messages{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -55,6 +60,7 @@
       .history{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -63,6 +69,7 @@
       .tasks{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -79,12 +86,15 @@
     .other-options{
       width: 30px;
       height: 30px;
+      position: relative;
+      bottom: 210px;
       font-size:medium;
       font-weight: bold;
     }
       .settings{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -93,6 +103,7 @@
       .support{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -101,6 +112,7 @@
       .privacy{
         display: flex;
         gap: 10px;
+        margin-bottom: 10px;
         margin-inline-start: 10px;
         .filter-white{
           filter:invert(100%) sepia(0%) saturate(7449%) hue-rotate(345deg) brightness(97%) contrast(111%);
@@ -109,12 +121,16 @@
 
 
   .header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(222, 142, 142);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
     .search-box{
       width: 30px;
       height: 30px;
       display: flex;
+      gap: 50px;
     }
     .right-searchbox{
       width: 30px;
