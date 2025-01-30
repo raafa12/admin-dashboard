@@ -5,78 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin-Dashboard</title>
     <link rel="stylesheet" href="style.css" />
-    
-  </head>
-  <body>
+</head>
+<body>
     <div class="dashboard">
-      <div class="sidebar">
-          <div class="dashboard-logo"> <img src="icons/abacus.svg" class="filter-white"> Dashboard</div>
-          <div class="options">
-            <div class="home"><img src="icons/home.svg" class="filter-white">Home</div> 
-            <div class="profile"><img src="icons/card-account-details.svg" class="filter-white">Profile</div>
-            <div class="messages"><img src="icons/message.svg" class="filter-white">Messages</div>
-            <div class="history"><img src="icons/clock-time-eight.svg" class="filter-white">History</div>
-            <div class="tasks"><img src="icons/file-multiple.svg" class="filter-white">Tasks</div>
-            <div class="communities"><img src="icons/account-group.svg" class="filter-white">Communities</div>
-          </div>
-          <div class="other-options">
-            <div class="settings"><img src="icons/cog.svg" class="filter-white">Settings</div>
-            <div class="support"><img src="icons/help-box.svg" class="filter-white">Support</div>
-            <div class="privacy"><img src="icons/security.svg" class="filter-white">Privacy</div>
-          </div>
+        <div class="sidebar">
+            <div class="dashboard-logo"> 
+                <img src="icons/abacus.svg" class="filter-white"> Dashboard
+            </div>
+            <div class="options">
+                <div class="home"><img src="icons/home.svg" class="filter-white">Home</div> 
+                <div class="profile"><img src="icons/card-account-details.svg" class="filter-white">Profile</div>
+                <div class="messages"><img src="icons/message.svg" class="filter-white">Messages</div>
+                <div class="history"><img src="icons/clock-time-eight.svg" class="filter-white">History</div>
+                <div class="tasks"><img src="icons/file-multiple.svg" class="filter-white">Tasks</div>
+                <div class="communities"><img src="icons/account-group.svg" class="filter-white">Communities</div>
+            </div>
+            <div class="other-options">
+                <div class="settings"><img src="icons/cog.svg" class="filter-white">Settings</div>
+                <div class="support"><img src="icons/help-box.svg" class="filter-white">Support</div>
+                <div class="privacy"><img src="icons/security.svg" class="filter-white">Privacy</div>
+            </div>
         </div>      
-      <div class="header">
-        <div class="search-box">
-          <img src="icons/magnify.svg" alt="">
-          <form method="get" id="search-form">
-            <fieldset>
-              <input type="text" id="search-input"   />
-              <i class="search-icon"></i>
-            </fieldset>
-          </form>
-          <i class="notification-icon"></i>
-          <div class="right-searchbox">
-            <img src="icons/bell-ring-outline.svg" alt=""> Morgan Oakley</div>
-        </div>
-           <div class="header-buttons">Hi there, 
-            <div>Morgan Oakley (@morgan)
-            <button>New</button> <button>Upload</button> <button>Share</button></div>
-        </div>
-      <div class="content">
-            <div class="projects"> Your Projects
-              <div class="super-cool-project"> Super Cool project
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
-              <div class="imposible-app">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
-              <div class="ad-blocker">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
-              <div class="less-cool-project">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
-              <div class="easy-peasy-app">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              <div>Money Maker
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
-              <div class="announcements">Announcements
-              <div class="site-maintenance">Site maintenance
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
-              <div class="community-share-day">Community Share Day
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
-              <div class="updated-privacy-policy">Updated Privacy Policy
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi id aliquet pellentesque, magna risus venenatis nisi, non venenatis nisl odio sit amet erat.</p>
-              </div>
+
+        <div class="header">
+            <div class="search-box">
+                <img src="icons/magnify.svg" alt="">
+                <form method="get" id="search-form">
+                    <fieldset><input type="text" id="search-input"/></fieldset>
+                </form>
+                <div class="right-searchbox">
+                    <img src="icons/bell-ring-outline.svg" alt=""> Morgan Oakley
+                </div>
             </div>
-            <div class="Trending">
-              @tegan
-              @morgan
-              @kendall
-              @alex
+            <div class="header-buttons">
+                Hi there, 
+                <div>Morgan Oakley (@morgan)
+                <button>New</button> 
+                <button>Upload</button> 
+                <button>Share</button>
+                </div>
             </div>
-  </body>
+        </div>
+
+        <div class="content">
+            <div class="projects"> 
+                <h2>Your Projects</h2>
+                <div class="super-cool-project">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="imposible-app">
+                    <h3>Impossible App</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="ad-blocker">
+                    <h3>Ad Blocker</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="less-cool-project">
+                    <h3>Less Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="easy-peasy-app">
+                    <h3>Easy Peasy App</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="money-maker">
+                    <h3>Money Maker</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </div>
+
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="site-maintenance">
+                    <h3>Site Maintenance</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="community-share-day">
+                    <h3>Community Share Day</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="updated-privacy-policy">
+                    <h3>Updated Privacy Policy</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </div>
+
+            <div class="trending">
+                <h2>Trending</h2>
+                <p>@tegan</p>
+                <p>@morgan</p>
+                <p>@kendall</p>
+                <p>@alex</p>
+            </div>
+        </div> <!-- Se cierra correctamente el .content -->
+    </div> <!-- Se cierra correctamente el .dashboard -->
+</body>
 </html>
