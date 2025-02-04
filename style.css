@@ -2,7 +2,7 @@
 .dashboard {
   display: grid;
   grid-template-rows: 180px;
-  grid-template-columns: 200px 900px;
+  grid-template-columns: 200px 1690px;
 }
 
   .sidebar{
@@ -151,10 +151,10 @@
     
     .right-searchbox{
       margin-left: 100px;
-      width: 30px;
-      height: 30px;
       display: flex;
-      justify-content: space-between;
+      flex-direction: row;
+      gap: 15px;
+      white-space: nowrap;
     }
     .header-buttons{
       margin: 20px;
@@ -168,7 +168,7 @@
       .buttons{
         position: relative;
         top: 20px;
-        color: aqua;
+        
       }
     }
 
@@ -176,4 +176,26 @@
     grid-row: 2 / 7;
     grid-column: 2 / 6;
     background-color: rgb(163, 163, 163);
+    display: grid;
+     
   }
+    .projects{
+      display: grid;
+      grid-template-rows: 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px;
+      
+    }
+      .site-maintenance{
+        
+      }
+    .announcements{
+      display: grid;
+      grid-template-rows: 25px;
+      grid-template-columns: 75px;
+    }
+
+    .trending{
+      display: grid;
+      grid-template-rows: 25px;
+      grid-template-columns: 75px;
+    }
