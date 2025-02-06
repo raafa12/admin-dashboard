@@ -177,9 +177,12 @@
     grid-column: 2 / 6;
     background-color: rgb(163, 163, 163);
     display: grid;
+    gap: 20px;
+    grid-template-columns: 600px 200px 200px;
      
   }
     .projects{
+      
       display: grid;
       grid-template-rows: 200px 200px 200px;
       grid-template-columns: 200px 200px 200px;
